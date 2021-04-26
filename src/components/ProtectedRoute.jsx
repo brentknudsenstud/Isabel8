@@ -11,7 +11,7 @@ class ProtectedRoute extends Component {
             return <Redirect to='/about' />
         }
         const {children, path} = this.props
-        return <Route path={'path'}>
+        return <Route path={path}>
             {children}
         </Route>
     }

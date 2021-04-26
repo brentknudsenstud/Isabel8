@@ -1,10 +1,13 @@
 import React, {createContext, useState} from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {Browser as Router} from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css';
+import './index.css';
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+</style>
 
 export const AuthContext = createContext({isAuthed: false, user: {} });
 

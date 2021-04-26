@@ -1,7 +1,9 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
-
+.content {
+  padding: 25px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,65 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ui.button {
+  background-color: red;
+}
+
+.picGallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* align-items: center; */
+  align-items: center;
+  
+}
+
+.picGallery img {
+  width: 30%;
+  margin: 12px;
+  /* border: 3px solid #108886; */
+  box-shadow: 0 4px 8px 0 rgba(49, 214, 247, 0.3), 0 6px 20px 0 rgba(49, 214, 247, 0.29);
+}
+
+.flip-card {
+  flex-grow: 3;
+  background-color: transparent;
+  width: 100%;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #def7fc;
+}
+
+caption {
+  width: 50%;
+}
+
+.flip-card-back {
+  background-color: #afec98;
+  color: #233313;
+  transform: rotateY(180deg);
 }

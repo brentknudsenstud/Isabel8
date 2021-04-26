@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,43 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* anything I want to override in semantic ui css, do it below */
+.ui.button {
+  background-color: #bdf7ed;
+  color: #108886;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  color: #233313;
+  background-color: #def7fc;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.content {
+  font-family: 'Quicksand', sans-serif;
+}
+.ui.form input {
+  background-color: white;
+  border-radius: 10px;
+}
+.ui.form input[type=email], .ui.form input[type=password] {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #afec98;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  color: #25c2bf;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a:hover {
+  color: #108886;
+  background-color: #bdf7ed;
 }
