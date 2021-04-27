@@ -52,3 +52,7 @@ a:hover {
   color: #108886;
   background-color: #bdf7ed;
 }
+
+caption {
+  text-align: center;
+}
