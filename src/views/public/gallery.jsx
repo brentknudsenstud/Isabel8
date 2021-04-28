@@ -1,7 +1,7 @@
 export function Gallery(props) {
     const pics = [
         { 
-        url: "/assets/rockin-out1.jpg" ,
+        url: "/assets/rockin-out1.jpg",
         alt: "Isabel 8 first concert as headlining act",
         caption: "Isabel 8's First Concert As Headlining Act"
 

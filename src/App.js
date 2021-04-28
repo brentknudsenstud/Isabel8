@@ -6,6 +6,7 @@ import {Route, Switch, Link, useLocation} from 'react-router-dom';
 import {Menu} from 'semantic-ui-react';
 import Login from './views/public/login';
 import {Gallery} from './views/public/gallery';
+import {AboutInfo} from './views/public/about';
 
 function App() {
   const location = useLocation();
@@ -54,34 +55,31 @@ function App() {
         </Menu.Item>
       </Menu>
       <div className='content'>        
-       <Switch>
-      <Route exact path='/home'>
-        <h1>Home</h1>
-      </Route>
-      <Route exact path='/about'>
-        <h1>About</h1>
-      </Route>
-      <Route exact path='/login'>
-        <Login/>
-      </Route>
-      <Route exact path='/music'>
-        <h1>Music</h1>
-      </Route>
-      <Route exact path='/gallery'>
-        <h1>Gallery</h1>
-        <Gallery />
-      </Route>
-      <Route exact path='/profile'>
-        <h1>Profile</h1>
-      </Route>
-      <Route exact path='/shoppingcart'>
-        <h1>Cart</h1>
-      </Route>
-  </Switch>
-      
-      
-      </div>
-     
+        <Switch>
+          <Route exact path='/home'>
+            <h1>Home</h1>
+          </Route>
+          <Route exact path='/about'>
+            <h1>About</h1>
+          </Route>
+          <Route exact path='/login'>
+            <Login/>
+          </Route>
+          <Route exact path='/music'>
+            <h1>Music</h1>
+          </Route>
+          <Route exact path='/gallery'>
+            <h1>Gallery</h1>
+            <Gallery />
+          </Route>
+          <Route exact path='/profile'>
+            <h1>Profile</h1>
+          </Route>
+          <Route exact path='/shoppingcart'>
+            <h1>Cart</h1>
+          </Route>
+        </Switch>
+     </div> 
     </div>
   );
 }
