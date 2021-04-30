@@ -79,6 +79,7 @@
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+  
 }
 
 .flip-card-inner {
@@ -89,9 +90,10 @@
   text-align: center;
   justify-content: center;
   
-  transition: transform 0.8s;
+  transition: transform 1s;
   transform-style: preserve-3d;
   border: 2px solid green;
+  margin: 5px;
 }
 
 .flip-card-front, .flip-card-back {
@@ -116,7 +118,7 @@
   background-size: cover;
   color: #233313;
   transform: rotateY(180deg);
-  border: 2px solid pink;
+  box-shadow: 0 4px 8px 0 rgba(49, 214, 247, 0.3), 0 6px 20px 0 rgba(49, 214, 247, 0.29);
 }
 
 .flip-card-back p {
@@ -125,4 +127,20 @@
   font-size: 1vw;
   padding: 25% 10%;
   text-align: center;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  background-color: #bdf7ed
+}
+
+.copyright-wrapper {
+  font-size: 16px;
+}
+
+.social-media-icon-wrapper {
+  font-size: 24px;
 }

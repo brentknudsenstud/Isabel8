@@ -1,4 +1,4 @@
-export function Gallery(props) {
+export default function Gallery(props) {
     const pics = [
         { 
         url: "/assets/rockin-out1.jpg",
@@ -63,6 +63,8 @@ export function Gallery(props) {
     },
 ]
     return (
+        <div>
+        <h1>Gallery</h1>
         <section className="picGallery">
             {pics.map((pic) =>
             <div className="flip-card">
@@ -77,6 +79,7 @@ export function Gallery(props) {
             </div>
             )}
         </section>
+        </div>
     )
 }
 
