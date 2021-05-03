@@ -40,22 +40,6 @@ export default function Is8MainHeader({isAuthed, path, bandLogo}) {
       </Menu>              
             </div>
         </div>
-        // <div>
-        // <h1></h1>
-        // <section className="picGallery">
-        //     {pics.map((pic) =>
-        //     <div className="flip-card">
-        //         <div className="flip-card-inner">
-        //             <div className="flip-card-front"> 
-        //                 <img src={pic.url} alt={pic.alt} />  
-        //             </div>
-        //             <div className="flip-card-back">
-        //                 <p>{pic.caption}</p>
-        //             </div>               
-        //         </div>
-        //     </div>
-        //     )}
-        // </section>
-        // </div>
+        
     )
 }
