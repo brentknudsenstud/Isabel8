@@ -1,5 +1,5 @@
-import React from 'react';
-import {Form, Button} from 'semantic-ui-react' 
+import React, {Component} from 'react';
+import {Form, Button, Checkbox} from 'semantic-ui-react'; 
 
 export default function Profile() {
         return (
@@ -22,8 +22,14 @@ export default function Profile() {
                         <label>Phone</label>
                         <input name='phone' type='phone' placeholder='8005551234' value='phone'/>
                     </Form.Field>
+                    <Form.Field>
+                        <label>How big of a fan are you of Isabel 8?</label>
+                        <input name='phone' type='phone' placeholder='8005551234' value='phone'/>
+                    </Form.Field>
                     <Button type='submit'>Save User</Button>
                 </Form>
             </div>
         );
     }
+
+

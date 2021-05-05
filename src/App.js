@@ -13,6 +13,7 @@ import Is8Footer from './components/Is8Footer/Is8Footer'
 import Songclips from './views/public/music'
 import Profile from './views/protected/profile'
 import {Form} from 'semantic-ui-react';
+import Survey from './views/public/fansurvey';
 
 function App() {
   const location = useLocation();
@@ -44,6 +45,9 @@ function App() {
           </Route>
           <Route exact path='/profile'>
             <Profile/>
+          </Route>
+          <Route exact path='/fansurvey'>
+            <Survey/>
           </Route>
         </Switch>
         </div>
