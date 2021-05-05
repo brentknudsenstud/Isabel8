@@ -144,3 +144,28 @@
 .social-media-icon-wrapper {
   font-size: 24px;
 }
+
+h3 {
+  margin-top: 24px;
+}
+
+.para {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.para1, .para2, .para3 {
+  padding: 16px;
+}
+
+.musicClips {
+  display: flex;
+  flex-wrap: wrap;
+  ;
+
+}
+
+.musicClips > div {
+  padding: 16px;
+}

@@ -10,6 +10,10 @@ import AboutInfo from './views/public/about';
 import BandLogo from './Isabel8Logotransbckgrnd.png';
 import Is8MainHeader from './components/Is8MainHeader/Is8MainHeader'
 import Is8Footer from './components/Is8Footer/Is8Footer'
+import Songclips from './views/public/music'
+import Profile from './views/protected/profile'
+import {Form} from 'semantic-ui-react';
+
 function App() {
   const location = useLocation();
   const {isAuthed} = useContext(AuthContext);
@@ -33,13 +37,13 @@ function App() {
             <Login/>
           </Route>
           <Route exact path='/music'>
-            <h1>Music</h1>
+            <Songclips/>
           </Route>
           <Route exact path='/gallery'>
             <Gallery />
           </Route>
           <Route exact path='/profile'>
-            <h1>Profile</h1>
+            <Profile/>
           </Route>
         </Switch>
         </div>

@@ -1,5 +1,5 @@
 import {Component} from 'react';
-import { Route} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import {AuthContext} from '../index';
 
 class ProtectedRoute extends Component {
