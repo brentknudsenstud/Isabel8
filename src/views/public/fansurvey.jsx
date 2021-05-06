@@ -94,7 +94,7 @@ const ownedMerchandiseOptions = [
   },
   {
     label: "None of the above, but I'll buy something soon",
-    value: 'none but buying soon'
+    value: 'none, but buying soon'
   }
 ]
 
@@ -123,6 +123,10 @@ const favoriteBandMemberOptions = [
     label: "I love them all the same!",
     value: 'all of them'
   },
+  {
+    label: "What are their names again?",
+    value: 'names again?'
+  }
 ]
 
 function Question({ title, options, value, onChange, name }) {
