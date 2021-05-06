@@ -1,4 +1,4 @@
-import React, {createContext, useState} from 'react';
+import React, {createContext, useState, useContext} from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -10,6 +10,9 @@ import './index.css';
 </style>
 
 export const AuthContext = createContext({isAuthed: false, user: {} });
+export const useAuthContext = () => {
+  return useContext(AuthContext)
+}
 
 function AuthProvider (props) { // properties
   const [isAuthed, setIsAuthed] = useState(false);

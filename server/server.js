@@ -13,10 +13,10 @@ const express = require('express')
         app.get('/songclips', (request, response) => {
             
             const songclips = [
-                {name: 'Morning Comes', soundclip: ''},
+                {name: 'Morning Comes', soundclip: '/assets/morning-comes.ogg'},
                 {name: 'Bending Time', soundclip: '/assets/bending-time.ogg'},
                 {name: 'Crossover', soundclip: ''},
-                {name: 'Pillars of Innocence', soundclip: ''},
+                {name: 'Pillars of Innocence', soundclip: '/assets/pillars-of-innocence.ogg'},
                 {name: 'Phoenix Sunfire', soundclip: ''},
                 {name: 'Bottled Up Inside', soundclip: ''},
                 {name: 'Rising Meteor', soundclip: ''},

@@ -153,6 +153,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   padding: 25px;
+  margin: 8px;
 }
 
 .para1, .para2, .para3 {
@@ -162,10 +163,13 @@ h3 {
 .musicClips {
   display: flex;
   flex-wrap: wrap;
-  ;
 
 }
 
 .musicClips > div {
   padding: 16px;
+}
+
+.formFieldStyling {
+  margin: 16px 0;
 }
