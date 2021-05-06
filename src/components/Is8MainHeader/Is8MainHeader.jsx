@@ -37,6 +37,11 @@ export default function Is8MainHeader({isAuthed, path, bandLogo}) {
           active={path === '/profile'}>
           <Link to='/profile'>Profile</Link> 
         </Menu.Item>
+        <Menu.Item
+          name ='fansurvey'
+          active={path === '/fansurvey'}>
+          <Link to='/fansurvey'>Fan Survey</Link> 
+        </Menu.Item>
       </Menu>              
             </div>
         </div>

@@ -3,7 +3,9 @@ import {useState, useEffect} from 'react'
 export default function SongClips (props) {
 const [songclips, setSongClips] = useState([])
 useEffect(() => {
-    fetch('http://localhost:7000/songclips').then(response => response.json()).then(songlist => {
+    fetch('http://localhost:7000/songclips')
+    .then(response => response.json())
+    .then(songlist => {
         setSongClips(songlist)
     })
 }, [])    

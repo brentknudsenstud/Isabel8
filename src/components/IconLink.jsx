@@ -1,8 +1,14 @@
 import {Icon} from 'semantic-ui-react';
 
+function LinkPiece(props) {
+    const {href, name} = props;
+    return (
+        <a href={href} target="_blank"><Icon link name ={name} /></a>
+    )
+}
 export default () => (
     <div className="social-media-icons">
-        <a href="facebook.com" target="_blank"><Icon link name ='facebook square' /></a>
-        <a href="spotify.com" target="_blank"><Icon link name ='spotify' /></a> 
+        <LinkPiece href="facebook.com" name='facebook square' />
+        <LinkPiece href="spotify.com" name='spotify' />
     </div>
 )
