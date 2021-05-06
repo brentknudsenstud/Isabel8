@@ -8,7 +8,7 @@ export default class Survey extends Component {
     render() {
       return (
         <Form>
-            <h3>Survey</h3>
+            <h3>Fan Survey</h3>
           <Form.Field>
             Selected value: <b>{this.state.value}</b>
           </Form.Field>
