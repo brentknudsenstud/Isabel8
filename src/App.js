@@ -14,6 +14,7 @@ import Songclips from './views/public/music'
 import Profile from './views/protected/profile'
 import {Form} from 'semantic-ui-react';
 import Survey from './views/public/fansurvey';
+import HomePage from './views/protected/index'
 
 function App() {
   const location = useLocation();
@@ -29,7 +30,7 @@ function App() {
       <div className='content'>        
         <Switch>
           <Route exact path='/home'>
-            <h1>Home</h1>
+            <HomePage/>
           </Route>
           <Route exact path='/about'>
             <AboutInfo />
