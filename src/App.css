@@ -182,7 +182,9 @@ h3 {
 .imageandpara {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: 16px;
 }
 
 .paragraph {
@@ -190,6 +192,8 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   padding: 16px;
+  margin: 16px;
+  text-align: center;
 }
 
 .indeximages {
