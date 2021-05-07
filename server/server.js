@@ -17,10 +17,10 @@ const express = require('express')
                 {name: 'Bending Time', soundclip: '/assets/bending-time.ogg'},
                 {name: 'Crossover', soundclip: ''},
                 {name: 'Pillars of Innocence', soundclip: '/assets/pillars-of-innocence.ogg'},
-                {name: 'Phoenix Sunfire', soundclip: ''},
+                {name: 'Phoenix Sunfire', soundclip: '/assets/phoenix-sunfire.ogg'},
                 {name: 'Bottled Up Inside', soundclip: ''},
                 {name: 'Rising Meteor', soundclip: ''},
-                {name: 'Blue Rain', soundclip: ''},
+                {name: 'Blue Rain', soundclip: '/assets/blue-rain.ogg'},
                 {name: 'Expressionistic Reality', soundclip: ''},
                 {name: 'Soaking Up the Thunder', soundclip: ''},
                 {name: 'Chains of Liberty', soundclip: ''}
