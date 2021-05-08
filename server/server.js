@@ -18,11 +18,11 @@ const express = require('express')
                 {name: 'Crossover', soundclip: '/assets/crossover.ogg'},
                 {name: 'Pillars of Innocence', soundclip: '/assets/pillars-of-innocence.ogg'},
                 {name: 'Phoenix Sunfire', soundclip: '/assets/phoenix-sunfire.ogg'},
-                {name: 'Bottled Up Inside', soundclip: ''},
+                {name: 'Bottled Up Inside', soundclip: '/assets/bottled-up-inside.ogg'},
                 {name: 'Rising Meteor', soundclip: '/assets/rising-meteor.ogg'},
                 {name: 'Blue Rain', soundclip: '/assets/blue-rain.ogg'},
                 {name: 'Expressionistic Reality', soundclip: '/assets/expressionistic-reality.ogg'},
-                {name: 'Soaking Up the Thunder', soundclip: '/assets/soaking-up-the-thunder'},
+                {name: 'Soaking Up the Thunder', soundclip: '/assets/soaking-up-the-thunder.ogg'},
                 {name: 'Chains of Liberty', soundclip: ''}
             ]
             response.send(songclips);
