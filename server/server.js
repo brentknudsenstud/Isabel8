@@ -15,14 +15,14 @@ const express = require('express')
             const songclips = [
                 {name: 'Morning Comes', soundclip: '/assets/morning-comes.ogg'},
                 {name: 'Bending Time', soundclip: '/assets/bending-time.ogg'},
-                {name: 'Crossover', soundclip: ''},
+                {name: 'Crossover', soundclip: '/assets/crossover.ogg'},
                 {name: 'Pillars of Innocence', soundclip: '/assets/pillars-of-innocence.ogg'},
                 {name: 'Phoenix Sunfire', soundclip: '/assets/phoenix-sunfire.ogg'},
                 {name: 'Bottled Up Inside', soundclip: ''},
-                {name: 'Rising Meteor', soundclip: ''},
+                {name: 'Rising Meteor', soundclip: '/assets/rising-meteor.ogg'},
                 {name: 'Blue Rain', soundclip: '/assets/blue-rain.ogg'},
-                {name: 'Expressionistic Reality', soundclip: ''},
-                {name: 'Soaking Up the Thunder', soundclip: ''},
+                {name: 'Expressionistic Reality', soundclip: '/assets/expressionistic-reality.ogg'},
+                {name: 'Soaking Up the Thunder', soundclip: '/assets/soaking-up-the-thunder'},
                 {name: 'Chains of Liberty', soundclip: ''}
             ]
             response.send(songclips);

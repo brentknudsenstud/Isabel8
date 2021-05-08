@@ -20,6 +20,7 @@ export default function SongClips(props) {
                     <SongClip songclip = {songclip}/>
                 ))}
             </section>
+            <p>Credits: Some tracks and sound effects from ZapSplat.com library</p>
         </div>
     )
 
