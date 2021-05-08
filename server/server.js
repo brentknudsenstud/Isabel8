@@ -23,7 +23,7 @@ const express = require('express')
                 {name: 'Blue Rain', soundclip: '/assets/blue-rain.ogg'},
                 {name: 'Expressionistic Reality', soundclip: '/assets/expressionistic-reality.ogg'},
                 {name: 'Soaking Up the Thunder', soundclip: '/assets/soaking-up-the-thunder.ogg'},
-                {name: 'Chains of Liberty', soundclip: ''}
+                {name: 'Chains of Liberty', soundclip: '/assets/chains-of-liberty.ogg'}
             ]
             response.send(songclips);
         })
