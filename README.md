@@ -1,7 +1,6 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This project is about a fictional band named Isabel 8. The band is comprised of 5 members - Jordan (founder and bassist), Saya (keyboardist), Rocky (lead singer), Theodore (drummer), and Bryce(lead guitarist and violinist). It was my first project built using React JS.
 
 ## Available Scripts
 
