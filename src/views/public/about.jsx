@@ -15,7 +15,7 @@ export default function AboutInfo(props) {
                     </div>
                     <div className="para3"><h3>Looking to the Future</h3>
                         <p>When they are not on tour during the dog days of summer, they are recording in studio.Their fourth album is due out next year in 2022. Isabel 8 hopes to do some heavily instrumental - speaking of the future - tracks that have a futuristic feel. You can listen to some of their not yet polished tracks on the Music page.</p>
-                        <img src="recording-studio.png"
+                        <img src="./assets/recording-studio.png" />
                     </div>
                 </div>
             </div>
