@@ -14,7 +14,7 @@ export default function SongClips(props) {
     return (
         <div>
             <h1>Music</h1>
-            <h3>Unmastered Song Clips from Upcoming Album tentatively titled "Fast Forward to the Future"</h3>
+            <h3>Unmastered song clips from upcoming album tentatively titled "Fast Forward to the Future"</h3>
             <section className="musicClips">
                 {songclips.map((songclip) => (
                     <SongClip songclip = {songclip}/>

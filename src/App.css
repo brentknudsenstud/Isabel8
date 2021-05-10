@@ -49,7 +49,7 @@
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -64,7 +64,7 @@
   /* border: 3px solid #108886; */
   max-width: 100%;
   box-shadow: 0 4px 8px 0 rgba(49, 214, 247, 0.3), 0 6px 20px 0 rgba(49, 214, 247, 0.29);
-  border: 5px solid #fff;
+  border: 3px solid #fff;
 }
 
 .flip-card {
@@ -75,7 +75,6 @@
   width: 30%;
   perspective: 1000px;
   margin: 12px;
-  border: 2px solid;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -90,10 +89,8 @@
   height: 100%;
   text-align: center;
   justify-content: center;
-  
   transition: transform 1s;
   transform-style: preserve-3d;
-  border: 2px solid;
   margin: 5px;
 }
 
@@ -187,6 +184,7 @@ h3 {
   margin: 16px;
 }
 
+
 .paragraph {
   width: 40%;
   display: flex;
@@ -197,5 +195,9 @@ h3 {
 }
 
 .indeximages {
+  width: 100%;
+}
+
+.aboutimages {
   width: 100%;
 }
