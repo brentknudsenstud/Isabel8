@@ -38,15 +38,15 @@ const lastTimeISawThemOptions = [
     value: '1 month'
   },
   {
-    label: 'Two to four months ago',
+    label: '2 to 4 months ago',
     value: '2-4 months'
   },
   {
-    label: 'Five to seven months ago',
+    label: '5 to 7 months ago',
     value: '5-7 months'
   },
   {
-    label: 'Eight to twelve months ago',
+    label: '8 to 12 months ago',
     value: '8-12 months'
   },
   {
