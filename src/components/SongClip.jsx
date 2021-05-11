@@ -2,6 +2,7 @@ export default function SongClip({ songclip }) {
     return (
         <div>
             <h4>{songclip.name}</h4>
+            <img src={songclip.image} />
             <audio key={songclip.name} controls>
                 <source src={songclip.soundclip} type="audio/ogg" />
                         Your browser can not play audio files.

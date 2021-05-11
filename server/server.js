@@ -13,17 +13,17 @@ const express = require('express')
         app.get('/songclips', (request, response) => {
             
             const songclips = [
-                {name: 'Morning Comes', soundclip: '/assets/morning-comes.ogg'},
-                {name: 'Bending Time', soundclip: '/assets/bending-time.ogg'},
-                {name: 'Crossover', soundclip: '/assets/crossover.ogg'},
-                {name: 'Pillars of Innocence', soundclip: '/assets/pillars-of-innocence.ogg'},
-                {name: 'Phoenix Sunfire', soundclip: '/assets/phoenix-sunfire.ogg'},
-                {name: 'Bottled Up Inside', soundclip: '/assets/bottled-up-inside.ogg'},
-                {name: 'Rising Meteor', soundclip: '/assets/rising-meteor.ogg'},
-                {name: 'Blue Rain', soundclip: '/assets/blue-rain.ogg'},
-                {name: 'Expressionistic Reality', soundclip: '/assets/expressionistic-reality.ogg'},
-                {name: 'Soaking Up the Thunder', soundclip: '/assets/soaking-up-the-thunder.ogg'},
-                {name: 'Chains of Liberty', soundclip: '/assets/chains-of-liberty.ogg'}
+                {name: 'Morning Comes', soundclip: '/assets/morning-comes.ogg', image: '/assets/morning-comes.jpg'},
+                {name: 'Bending Time', soundclip: '/assets/bending-time.ogg', image: '/assets/bending-time.jpg'},
+                {name: 'Crossover', soundclip: '/assets/crossover.ogg', image: '/assets/crossover.jpg' },
+                {name: 'Pillars of Innocence', soundclip: '/assets/pillars-of-innocence.ogg', image: '/assets/pillars-of-innocence.jpg'},
+                {name: 'Phoenix Sunfire', soundclip: '/assets/phoenix-sunfire.ogg', image: '/assets/phoenix-sunfire.png'},
+                {name: 'Bottled Up Inside', soundclip: '/assets/bottled-up-inside.ogg', image: '/assets/bottled-up-inside.jpg'},
+                {name: 'Rising Meteor', soundclip: '/assets/rising-meteor.ogg', image: '/assets/rising-meteor.jpg'},
+                {name: 'Blue Rain', soundclip: '/assets/blue-rain.ogg', image: 'blue-rain'},
+                {name: 'Expressionistic Reality', soundclip: '/assets/expressionistic-reality.ogg', image: '/assets/expressionistic-reality.jpg'},
+                {name: 'Soaking Up the Thunder', soundclip: '/assets/soaking-up-the-thunder.ogg', image: '/assets/soaking-up-the-thunder.jpg'},
+                {name: 'Chains of Liberty', soundclip: '/assets/chains-of-liberty.ogg', image: '/assets/chains-of-liberty.jpg'}
             ]
             response.send(songclips);
         })
