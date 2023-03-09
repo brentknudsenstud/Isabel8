@@ -4,7 +4,7 @@ import SongClip from '../../components/SongClip'
 export default function SongClips(props) {
     const [songclips, setSongClips] = useState([])
     useEffect(() => {
-        fetch('http://localhost:7000/songclips')
+        fetch('http://localhost:3000/songclips')
             .then(response => response.json())
             .then(songlist => {
                 setSongClips(songlist)
