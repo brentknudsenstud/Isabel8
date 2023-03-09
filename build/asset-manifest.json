@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7a8c77ca.chunk.css",
+    "main.js": "/static/js/main.c518733f.chunk.js",
+    "main.js.map": "/static/js/main.c518733f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2bb27597.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2bb27597.js.map",
+    "static/css/2.d97c81c1.chunk.css": "/static/css/2.d97c81c1.chunk.css",
+    "static/js/2.a4382704.chunk.js": "/static/js/2.a4382704.chunk.js",
+    "static/js/2.a4382704.chunk.js.map": "/static/js/2.a4382704.chunk.js.map",
+    "static/js/3.8401e813.chunk.js": "/static/js/3.8401e813.chunk.js",
+    "static/js/3.8401e813.chunk.js.map": "/static/js/3.8401e813.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d97c81c1.chunk.css.map": "/static/css/2.d97c81c1.chunk.css.map",
+    "static/css/main.7a8c77ca.chunk.css.map": "/static/css/main.7a8c77ca.chunk.css.map",
+    "static/js/2.a4382704.chunk.js.LICENSE.txt": "/static/js/2.a4382704.chunk.js.LICENSE.txt",
+    "static/media/Isabel8Logotransbckgrnd.137e5e6c.png": "/static/media/Isabel8Logotransbckgrnd.137e5e6c.png",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bb27597.js",
+    "static/css/2.d97c81c1.chunk.css",
+    "static/js/2.a4382704.chunk.js",
+    "static/css/main.7a8c77ca.chunk.css",
+    "static/js/main.c518733f.chunk.js"
+  ]
+}
